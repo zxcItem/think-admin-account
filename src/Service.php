@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace app\vote;
+namespace app\account;
 
 use think\admin\Plugin;
 
