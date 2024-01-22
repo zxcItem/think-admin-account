@@ -1,12 +1,11 @@
 <?php
 
-use think\admin\extend\PhinxExtend;
 use think\migration\Migrator;
 
 /**
- * 用户模块初始化
+ * 用户模块初始化数据表
  */
-class Account20240122 extends Migrator
+class InstallAccount extends Migrator
 {
     /**
      * Change Method.
@@ -248,5 +247,4 @@ class Account20240122 extends Migrator
         // 修改主键长度
         $this->table($table)->changeColumn('id', 'integer', ['limit' => 11, 'identity' => true]);
     }
-
 }
