@@ -50,7 +50,7 @@ class Device extends Controller
     {
         $this->types = Account::types();
         if ($this->request->isGet()) {
-            $this->data = sysdata('plugin.account.access');
+            $this->data = sysdata('account.access');
             $this->data['headimg'] = Account::headimg();
             $this->fetch();
         } else {
