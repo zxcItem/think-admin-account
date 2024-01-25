@@ -9,6 +9,8 @@ use think\db\exception\DbException;
 
 /**
  * 用户数据统计表
+ * @class Portal
+ * @package app\account\controller
  */
 class Portal extends Controller
 {

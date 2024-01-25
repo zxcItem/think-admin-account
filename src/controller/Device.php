@@ -16,7 +16,7 @@ use think\db\exception\ModelNotFoundException;
 /**
  * 终端账号管理
  * @class Device
- * @package app\account\controller\user
+ * @package app\account\controller
  */
 class Device extends Controller
 {

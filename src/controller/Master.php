@@ -15,7 +15,7 @@ use think\db\exception\ModelNotFoundException;
 /**
  * 用户账号管理
  * @class Master
- * @package app\account\controller\user
+ * @package app\account\controller
  */
 class Master extends Controller
 {
