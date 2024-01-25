@@ -36,7 +36,7 @@ class Service extends Plugin
         return [
             [
                 'name' => '用户管理',
-                'sort' => '200',
+                'sort' => '0',
                 'subs' => [
                     [
                         'name' => '用户管理',
