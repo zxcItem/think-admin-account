@@ -27,7 +27,7 @@ class Service extends Plugin
 
 
     /**
-     * 增加微信配置
+     * 增加用户配置
      * @return array[]
      */
     public static function menu(): array
