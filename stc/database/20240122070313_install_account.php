@@ -1,5 +1,6 @@
 <?php
 
+use think\admin\extend\PhinxExtend;
 use think\migration\Migrator;
 
 /**
