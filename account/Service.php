@@ -23,7 +23,7 @@ class Service extends Plugin
      * 定义安装包名
      * @var string
      */
-    protected $package = 'xiaochao/think-plugs-account';
+    protected $package = 'xiaochao/think-admin-account';
 
 
     /**
@@ -36,7 +36,6 @@ class Service extends Plugin
         return [
             [
                 'name' => '用户管理',
-                'sort' => '0',
                 'subs' => [
                     [
                         'name' => '用户管理',

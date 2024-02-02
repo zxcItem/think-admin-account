@@ -1,8 +1,8 @@
 {
     "type": "think-admin-plugin",
-    "name": "xiaochao/think-plugs-account",
+    "name": "xiaochao/think-admin-account",
     "license": "MIT",
-    "description": "Account Plugin for ThinkAdmin",
+    "description": "ThinkAdminAccount for ThinkAdmin",
     "authors": [
         {
             "name": "叶落无痕",
@@ -28,7 +28,7 @@
         },
         "plugin": {
             "copy": {
-                "src": "!app/account",
+                "account": "!app/account",
                 "stc/database": "database/migrations"
             },
             "clear": true

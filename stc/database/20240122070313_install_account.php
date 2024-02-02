@@ -47,7 +47,6 @@ class InstallAccount extends Migrator
         PhinxExtend::write2menu([
             [
                 'name' => '用户管理',
-                'sort' => '200',
                 'subs' => [
                     [
                         'name' => '用户管理',
